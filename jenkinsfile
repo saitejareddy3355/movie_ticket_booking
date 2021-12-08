@@ -6,21 +6,18 @@ stage('Build')
 {
 steps{
 echo "Building the Code.........."
-bat "clean"
 }
 }
 stage('Test') 
 {
 steps{
 echo "Testing the Code.........."
-bat "test"
 }
 }
 stage('Compile') 
 {
 steps{
 echo "Compiling the Project.........."
-bat "compile"
 }
 }
 stage('Deploy') 
